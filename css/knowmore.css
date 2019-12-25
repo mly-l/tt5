@@ -1,0 +1,164 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+#nav {
+	width: 100%;
+	height: 90px;
+	background: #e19494;
+	margin-top: 2px;
+}
+
+
+
+.nav {
+	width: 1100px;
+	height: 90px;
+	line-height: 90px;
+	/*border: 1px solid red;*/
+	margin: 0 auto;
+	color: #fff;
+}
+
+.nav ul {
+	list-style: none;
+}
+
+
+.nav li {
+	text-decoration: none;
+	float: left;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.nav a {
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	height: 90px;
+	width: 90px;
+	color: #fff;
+}
+.nav a:hover {
+	color: #58c93a;
+	text-decoration: none;
+	font-size: 17px;
+	display: block;
+	height: 90px;
+	width: 90px;
+	background-color: #fff;
+}
+
+#container {
+	width: 100%;
+	height: 2400px;
+	background: #fff5e0;
+
+}
+
+#main {
+	width: 1008px;
+	height: 2100px;
+	margin: 0 auto;
+	/*border: 1px solid #ccc;*/
+}
+
+#begin {
+	width: 100%;
+	height: 100px;
+	/*background: #ccc;*/
+	margin-top: 5px;
+}
+.begin {
+	width: 800px;
+	height: 100px;
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+}
+.begin p {
+	line-height: 100px;
+	text-align: center;
+	font-size: 24px;
+}
+#content {
+	width: 100%;
+	height: 2080px;
+	margin-top: 10px;
+	/*background: pink;*/
+}
+.content {
+	width: 1000px;
+	height: 2080px;
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+}
+
+.fist {
+	width: 300px;
+	height: 60px;
+	/*border: 1px solid red;*/
+	margin: 0 auto;
+	line-height: 60px;
+	font-size: 24px;
+	text-align: center;
+}
+.center {
+	width: 1000px;
+	height: 700px;
+	/*border: 1px solid red;*/
+}
+
+.center p {
+	width: 724px;
+	height: 270px;
+	margin: 0 auto;
+	font-size: 18px;
+	line-height: 30px;
+	/*border: 1px solid red;*/
+}
+.picc {
+	width: 724px;
+	height: 300px;
+	margin: 0 auto;
+}
+
+
+.fist1 {
+	width: 300px;
+	height: 60px;
+	/*border: 1px solid red;*/
+	margin: 0 auto;
+	line-height: 60px;
+	font-size: 24px;
+	text-align: center;
+}
+.center1 {
+	width: 1000px;
+	height: 700px;
+	/*border: 1px solid red;*/
+	margin-top: 40px;
+	/*background: #bbffee;*/
+}
+
+.center1 p {
+	width: 700px;
+	height: 130px;
+	margin: 0 auto;
+	font-size: 18px;
+	line-height: 35px;
+	/*border: 1px solid red;*/
+}
+.picc1 {
+	width: 700px;
+	height: 410px;
+	margin: 0 auto;
+}
+
+.map {
+	width: 741px;
+	height: 500px;
+	margin: 0 auto;
+}

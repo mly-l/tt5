@@ -1,0 +1,302 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	/*background: url(../images/03.jpg);
+	background-size: cover;*/
+	/*background: pink;*/
+}
+
+#nav {
+	width: 100%;
+	height: 90px;
+	background: #292929;
+	margin-top: 2px;
+}
+.nav {
+	width: 1000px;
+	height: 90px;
+	line-height: 90px;
+	/*border: 1px solid red;*/
+	margin: 0 auto;
+	color: #fff;
+}
+.nav ul {
+	list-style: none;
+}
+.nav li {
+	text-decoration: none;
+	float: left;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.nav a {
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	height: 90px;
+	width: 90px;
+	color: #fff;
+}
+.nav a:hover {
+	color: #58c93a;
+	text-decoration: none;
+	font-size: 17px;
+	display: block;
+	height: 90px;
+	width: 90px;
+	background-color: #fff;
+}
+
+#container {
+	width: 100%;
+	height: 2200px;
+	background: #fff5ee;
+
+}
+
+#main {
+	width: 1008px;
+	height: 1990px;
+	margin: 0 auto;
+	border: 1px solid #ccc;
+}
+
+#begin {
+	width: 100%;
+	height: 100px;
+	/*background: #ccc;*/
+	margin-top: 5px;
+}
+.begin {
+	width: 800px;
+	height: 100px;
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+}
+.begin p {
+	line-height: 100px;
+	text-align: center;
+	font-size: 24px;
+}
+#content {
+	width: 100%;
+	height: 2080px;
+	margin-top: 10px;
+	/*background: pink;*/
+}
+.content {
+	width: 1000px;
+	height: 2080px;
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+}
+.content_1 {
+	width: 1000px;
+	height: 380px;
+	/*float: left;*/
+}
+.content_1_left {
+	width: 477px;
+	height: 320px;
+	float: left;
+	/*border: 1px solid red;*/
+
+}
+.content_1_right {
+	width: 519px;
+	height: 320px;
+	float: right;
+	background: #f8f8ff;
+	/*border: 1px solid red;*/
+}
+
+.miao1 {
+	width: 400px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 24px;
+	font-weight: 20px;
+	margin: 0 auto;
+	left: 20px;
+}
+.content_1_right p {
+	width: 518px;
+	height: 320px;
+	line-height: 30px;
+	font-size: 16px;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+.content_2 {
+	width: 1000px;
+	height: 320px;
+	/*margin-top: 0px;*/
+}
+.content_2_left {
+	width: 477px;
+	height: 320px;
+	float: left;
+	/*border: 1px solid red;*/
+
+}
+.content_2_right {
+	width: 519px;
+	height: 320px;
+	float: right;
+	background: #f8f8ff;
+
+	/*border: 1px solid red;*/
+}
+
+.miao2 {
+	width: 400px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 24px;
+	font-weight: 20px;
+	margin: 0 auto;
+	left: 20px;
+}
+.content_2_right p {
+	width: 518px;
+	height: 320px;
+	line-height: 30px;
+	font-size: 16px;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+.content_3 {
+	width: 1000px;
+	height: 310px;
+	margin-top: 50px;
+}
+.content_3_left {
+	width: 500px;
+	height: 310px;
+	float: left;
+	/*border: 1px solid red;*/
+
+}
+.content_3_right {
+	width: 496px;
+	height: 310px;
+	float: right;
+	background: #f8f8ff;
+
+	/*border: 1px solid red;*/
+}
+
+.miao3 {
+	width: 300px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 24px;
+	font-weight: 20px;
+	margin: 0 auto;
+	left: 20px;
+}
+.content_3_right p {
+	width: 495px;
+	height: 310px;
+	line-height: 30px;
+	font-size: 16px;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+.content_4 {
+	width: 1000px;
+	height: 350px;
+	margin-top: 50px;
+}
+.content_4_left {
+	width: 478px;
+	height: 350px;
+	float: left;
+	/*border: 1px solid red;*/
+
+}
+.content_4_right {
+	width: 518px;
+	height: 350px;
+	float: right;
+	background: #f8f8ff;
+
+	/*border: 1px solid red;*/
+}
+
+.miao4 {
+	width: 300px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 24px;
+	font-weight: 20px;
+	margin: 0 auto;
+	left: 20px;
+}
+.content_4_right p {
+	width: 518px;
+	height: 350px;
+	line-height: 30px;
+	font-size: 16px;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+.content_5 {
+	width: 1000px;
+	height: 350px;
+	margin-top: 50px;
+}
+.content_5_left {
+	width: 478px;
+	height: 350px;
+	float: left;
+	/*border: 1px solid red;*/
+
+}
+.content_5_right {
+	width: 518px;
+	height: 350px;
+	float: right;
+	background: #f8f8ff;
+
+	/*border: 1px solid red;*/
+}
+
+.miao5 {
+	width: 300px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 24px;
+	font-weight: 20px;
+	margin: 0 auto;
+	left: 20px;
+}
+.content_5_right p {
+	width: 518px;
+	height: 350px;
+	line-height: 30px;
+	font-size: 16px;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+.content_6 {
+	width: 1000px;
+	height: 150px;
+	margin-top: 50px;
+	/*margin: 0 auto;*/
+	border: 1px solid red;
+
+}

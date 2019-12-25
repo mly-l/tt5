@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css"  href="css/time1.css">
+	<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/time1.js"></script>
+</head>
+<body>
+
+	<div id="nav">
+		<div class="nav">
+			<ul>
+				<li><a href="index.html">首页</a></li>
+				<li><a href="custom.html">风俗</a></li>
+				<li><a href="food.html">美食</a></li>
+				<li><a href="view.html">景点</a></li>
+				<li><a href="history.html">历史</a></li>
+				<!-- <li>文化</li> -->
+				<!-- <li>气候</li> -->
+				<!-- <li>倒计时</li> -->
+				<!-- <li><a href="登录页面.html">登录</a></li> -->
+				<li><a href="login.html">注册/登录</a></li>
+				<li><a href="others.html">其他</a></li>
+			</ul>		
+		</div>
+	</div>
+
+	<div id="main">
+
+	<div id="wrap">
+	<h1 class="align">开始计时</h1>
+
+	<!-- 目标时间输入 -->
+	<div id="target_in" class="align"></div>
+	<label>请输入：</label>
+	<input type="text" class="in" name="year" id="year">
+	<label>年</label>
+	<input type="text" class="in" name="month" id="month">
+	<label>月</label>
+	<input type="text" class="in" name="day" id="day">
+	<label>日</label>
+	
+
+	<!-- 开始及时按钮 -->
+	<div id="start" class="align"></div>
+	
+	<!-- 小标题 -->
+	<div id="title_t">
+		<label>现在距离-</label>
+		<label id="tYear">2020</label>
+		<label>年</label>
+		<label id="tMonth">1</label>
+		<label>月</label>
+		<label id="tDay">25</label>
+		<label>日-还剩：</label>
+	</div>
+
+	<!-- 倒计时 -->
+	<div class="align" id="start_time">
+		<label id="iDay">000</label>
+		<label class="num">天</label>
+		<label id="iHour">00</label>
+		<label class="num">小时</label>
+		<label id="iMin">000</label>
+		<label class="num">分</label>
+		<label id="iSec">00</label>
+		<label class="num">秒</label>
+	</div>
+	</div>
+</div>
+</body>
+</html>
